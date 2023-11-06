@@ -1,0 +1,497 @@
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 99;
+}
+header .hWrap{
+    width: 1440px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+header .hWrap h1{
+    margin-left: 50px;
+    margin-right: 150px;
+}
+header .hWrap h1 img{
+    width: 100px;
+}
+header .hWrap .gnb{
+    display: flex;
+    line-height: 100px;
+    text-align: center;
+}
+header .hWrap .gnb li{
+    width: 120px;
+    height: 100px;
+}
+header .hWrap .gnb li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+header .hWrap .util{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 14px;
+}
+header .hWrap .util li{
+    margin-right: 30px;
+}
+.subGnb{
+    text-align: center;
+    background-color: #111;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 98;
+}
+.subGnb ul{
+    display: flex;
+    justify-content: center;
+}
+.subGnb ul li{
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 50px;
+}
+.subGnb ul li:hover{
+    color: #ccc;
+}
+.subGnb img{
+    width: 150px;
+}
+.subGnb .subModel{
+    width: 1440px;
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    padding: 50px 0;
+}
+.subGnb .subModel .item{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.subGnb .subModel .item p{
+    margin-top: 10px;
+    color: #eee;
+}
+.subGnb .subModel .item button{
+    background-color: initial;
+    border: 1px solid #eee;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+.subGnb .subModel .item button:hover{
+    background-color: #ccc;
+    color: #111;
+}
+.subGnb .subShop{
+    width: 1440px;
+    margin: 0 auto;
+    display: none;
+    color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subGnb .subMember{
+    width: 1440px;
+    margin: 0 auto;
+    display: none;
+    color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subGnb .subCustomer{
+    width: 1440px;
+    margin: 0 auto;
+    display: none;
+    color: #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subGnb .close{
+    border: 0;
+    background-color: inherit;
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    cursor: pointer;
+}
+.subGnb .close img{
+    width: 20px;
+}
+
+.banner{
+    height: 800px;
+    background-image: url(../images/banner.png);
+}
+.banner a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.model{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.model .item{
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.model .item img{
+    width: 250px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.model .item .name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 55px;
+    text-align: left;
+    padding-left: 25px;
+}
+.model .item .textSet{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.model .item .textSet .txt p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.model .item .price{
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+}
+.model .item button{
+    border: 1px solid #111;
+    background-color: inherit;
+    padding: 7px 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 25px;
+    bottom: 23px;
+}
+.model .item button:hover{
+    background-color: #111;
+    color: #ccc;
+}
+.model .slidePrev{
+    width: 25px;
+    height: 25px;
+    border: 0;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    transform: rotate(225deg);
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 90;
+    cursor: pointer;
+}
+.model .slideNext{
+    width: 25px;
+    height: 25px;
+    border: 0;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    transform: rotate(45deg);
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 90;
+    cursor: pointer;
+}
+
+.promise{
+    margin-top: 100px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+}
+.promise .con{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    color: #111;
+    position: relative;
+}
+.promise .con .txtSet{
+    margin-bottom: 50px;
+}
+.promise .con .txtSet h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.promise .con .txtSet p{
+    margin-top: 100px;
+    color: #222222;
+}
+.promise .con .slide{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    width: 900px;
+}
+.promise .con .slide .item{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(238, 238, 238, 0.7);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.promise .con .slide .item h4{
+    padding-top: 70px;
+    text-indent: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.promise .con .slide .item p{
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 14px;
+}
+.promise .con .slidePrev{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.promise .con .slideNext{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.promise .con button img{
+    width: 30px;
+}
+
+.subMenu{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.subMenu .con{
+    display: flex;
+    justify-content: center;
+}
+.subMenu .con .item{
+    width: 300px;
+    height: 250px;
+    background-color: #ddd;
+    font-weight: bold;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.subMenu .con .item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.subMenu .con .item .icon1{
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 25px;
+    display: block;
+}
+.subMenu .con .item .icon2{
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 25px;
+    display: none;
+}
+.subMenu .con .item .name{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.subMenu .con .item .more{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+}
+.subMenu .con .item .more p{
+    margin-right: 10px;
+    font-weight: normal;
+    color: #ddd;
+}
+.subMenu .con .item .more .slide1{
+    height: 15px;
+    margin-top: 4px;
+    display: block;
+}
+.subMenu .con .item .more .slide2{
+    height: 15px;
+    margin-top: 4px;
+    display: none;
+}
+
+.news{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.news .mainNews{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.news .mainNews .mainTxtSet{
+    background: linear-gradient(0deg, rgba(182,220,255,1) 0%, rgba(185,182,229,1) 100%);
+    width: 720px;
+    height: 500px;
+}
+.news .mainNews .mainTxtSet .newsName{
+    padding-top: 180px;
+    font-weight: bold;
+    padding-left: 55px;
+    font-size: 20px;
+}
+.news .mainTxtSet .mNewsTxt{
+    margin-top: 55px;
+    padding-left: 55px;
+    font-size: 14px;
+}
+.news .imgSet img{
+    width: 720px;
+    height: 500px;
+}
+.news .subCon{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.news .subCon .subNews{
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: transparent 1px solid;
+    box-sizing: border-box;
+}
+.news .subCon .subNews:hover{
+    border: #aaa 1px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.news .subCon .subNews .subName{
+    font-size: 14px;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.news .subCon .subNews .subDate{
+    font-size: 12px;
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.news button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #111;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 50px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+footer{
+    background-color: #111;
+    color: #ccc;
+    height: 380px;
+    margin-top: 100px;
+}
+footer .fWrap{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+footer .fWrap img{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+footer .fWrap .fGnb{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+}
+footer .fWrap .fGnb li{
+    margin-right: 50px;
+}
+footer .fWrap p{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+footer .fWrap .subNation{
+    display: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 20px;
+}
+footer .fWrap .subNation li{
+    margin-right: 15px;
+}
+footer .fWrap .fGnb img{
+    width: 10px;
+    margin: 0;
+}
+footer .fWrap .fGnb .nationUp{
+    display: none;
+}
